@@ -9,8 +9,8 @@ class Intro extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Center(
-                  child: Image.asset("Assets/images/Full_SCAVE.jpg")),
+              Image.asset("Assets/images/Full_SCAVE.jpg"),
+
             ],
           ),
     );

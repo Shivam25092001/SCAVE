@@ -15,7 +15,7 @@ class FirstApp extends StatelessWidget {
 
       themeMode: ThemeMode.system,
       theme: ThemeData(primarySwatch: Colors.amber ),
-      initialRoute: "/",
+      initialRoute: "/login",
       routes: {
         "/": (context) => Intro(),
         "/login": (context) => Login(),
