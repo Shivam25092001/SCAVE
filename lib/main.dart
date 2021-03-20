@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/Intro_page.dart';
 import 'package:flutter_app/pages/home.dart';
 import 'package:flutter_app/pages/login_page.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -14,8 +15,9 @@ class FirstApp extends StatelessWidget {
 
       themeMode: ThemeMode.system,
       theme: ThemeData(primarySwatch: Colors.amber ),
+      initialRoute: "/",
       routes: {
-        "/": (context) => Login(),
+        "/": (context) => Intro(),
         "/login": (context) => Login(),
         "/home": (context) => homepage(),
 
