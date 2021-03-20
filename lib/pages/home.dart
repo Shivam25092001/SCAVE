@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 class homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     int num = 1;
     String name = 'Shivam';
     var mood;
@@ -12,7 +13,7 @@ class homepage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Center(
-            child: Text('Hello everyone'),
+            child: Text('SCAVE'),
           )
         ),
 
@@ -28,46 +29,23 @@ class homepage extends StatelessWidget {
             children: [
               DrawerHeader(
                 child: Center(
-                  child: Text("It's Drawer bitch"),
+                  child: Text("hello Scavers !"),
                 )
               ),
-
-
               ListTile(
-                title: Text('LoL'),
+                title: Text('Scan'),
               ),
               ListTile(
-                title: Text('Fuck'),
+                title: Text('Last shopping'),
               ),
               ListTile(
-                title: Text('NoCode'),
+                title: Text('Upcoming notifications'),
               ),
               ListTile(
-                title: Text('Ganja'),
+                title: Text('Donate'),
               ),
               ListTile(
-                title: Text('chlorine'),
-              ),
-              ListTile(
-                title: Text('fluorine'),
-              ),
-              ListTile(
-                title: Text('Bromine'),
-              ),
-              ListTile(
-                title: Text('Iodine'),
-              ),
-              ListTile(
-                title: Text('Backchodi'),
-              ),
-              ListTile(
-                title: Text('Liberary'),
-              ),
-              ListTile(
-                title: Text('Random'),
-              ),
-              ListTile(
-                title: Text('Helu'),
+                title: Text('Contact Us'),
               ),
 
             ],

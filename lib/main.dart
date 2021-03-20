@@ -1,23 +1,26 @@
 import 'package:flutter/material.dart';
-import 'file:///E:/Android_projects/flutter_app/lib/pages/home.dart';
+import 'package:flutter_app/pages/home.dart';
+import 'package:flutter_app/pages/login_page.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 void main() {
-  runApp(firstApp());
+  runApp(FirstApp());
 }
 
-// ignore: camel_case_types
-class firstApp extends StatelessWidget {
+class FirstApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: homepage(),
-      themeMode: ThemeMode.dark,
 
-      darkTheme: ThemeData(
-        brightness: Brightness.dark,
-      ),
-      );
+      themeMode: ThemeMode.system,
+      theme: ThemeData(primarySwatch: Colors.amber ),
+      routes: {
+        "/": (context) => Login(),
+        "/login": (context) => Login(),
+        "/home": (context) => homepage(),
+
+      },
+    );
   }
 }
 
