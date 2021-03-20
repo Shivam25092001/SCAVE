@@ -51,6 +51,7 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
    - Assets/images/Scave.png
+   - Assets/images/Full_SCAVE.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
