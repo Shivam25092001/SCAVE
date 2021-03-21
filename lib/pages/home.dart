@@ -36,7 +36,7 @@ class homepage extends StatelessWidget {
                 title: Text('Scan'),
               ),
               ListTile(
-                title: Text('Last shopping'),
+                title: Text('Last shopping list'),
               ),
               ListTile(
                 title: Text('Upcoming notifications'),
@@ -47,7 +47,6 @@ class homepage extends StatelessWidget {
               ListTile(
                 title: Text('Contact Us'),
               ),
-
             ],
           )
 
