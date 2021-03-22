@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/customWidgets/Drawer.dart';
 
 // ignore: camel_case_types
 class homepage extends StatelessWidget {
@@ -12,9 +13,10 @@ class homepage extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(
-          title: Center(
-            child: Text('SCAVE'),
-          )
+          backgroundColor: const Color(0xffFFCC00),
+          title: Align(child: Text('SCAVE'),
+            alignment: Alignment.center,
+          ),
         ),
 
         body: Center(
@@ -23,34 +25,7 @@ class homepage extends StatelessWidget {
             )
         ),
 
-        drawer: Drawer(
-          child: ListView(
-            padding: EdgeInsets.zero,
-            children: [
-              DrawerHeader(
-                child: Center(
-                  child: Text("hello Scavers !"),
-                )
-              ),
-              ListTile(
-                title: Text('Scan'),
-              ),
-              ListTile(
-                title: Text('Last shopping list'),
-              ),
-              ListTile(
-                title: Text('Upcoming notifications'),
-              ),
-              ListTile(
-                title: Text('Donate'),
-              ),
-              ListTile(
-                title: Text('Contact Us'),
-              ),
-            ],
-          )
-
-        ),
+        drawer: AppDrawer(),
     );
   }
 }

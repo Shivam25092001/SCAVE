@@ -10,9 +10,7 @@ class Intro extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset("Assets/images/Full_SCAVE.jpg"),
-          Text(
-            "Hola Scaver!",
-            style: TextStyle(fontSize: 40),
+          Text("Hola Scaver!", style: TextStyle(fontSize: 40),
           ),
         ],
       ),
