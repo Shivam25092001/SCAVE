@@ -13,7 +13,7 @@ class homepage extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: const Color(0xffFFCC00),
+          backgroundColor: Colors.white ,
           title: Align(child: Text('SCAVE'),
             alignment: Alignment.center,
           ),
