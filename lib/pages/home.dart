@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/customWidgets/Drawer.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 // ignore: camel_case_types
 class homepage extends StatelessWidget {
@@ -12,20 +13,24 @@ class homepage extends StatelessWidget {
     if (num == 1) mood = 'funny';
 
     return Scaffold(
-        appBar: AppBar(
+      drawer: AppDrawer(),
+      appBar: AppBar(
+          centerTitle: true,
+          elevation: 0,
           backgroundColor: const Color(0xffFFCC00),
-          title: Align(child: Text('SCAVE'),
-            alignment: Alignment.center,
+          title: Text('SCAVE',style: TextStyle(fontFamily: 'GlacialIndifference',fontWeight: FontWeight.bold)),
+          ),
+
+        body: Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: Center(
+              child: Container(
+                child: Text("My first page of app by $name and mood is $mood .",style: TextStyle(fontFamily: 'GlacialIndifference',fontWeight: FontWeight.bold,fontSize: 20),),
+              )
           ),
         ),
 
-        body: Center(
-            child: Container(
-              child: Text("My first page of app by $name and mood is $mood ."),
-            )
-        ),
 
-        drawer: AppDrawer(),
     );
   }
 }
