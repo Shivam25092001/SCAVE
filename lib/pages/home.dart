@@ -10,7 +10,7 @@ class homepage extends StatelessWidget {
     int num = 1;
     String name = 'Shivam';
     var mood;
-    if (num == 1) mood = 'funny';
+    if (num == 0) mood = 'funny';
 
     return Scaffold(
       drawer: AppDrawer(),
@@ -22,10 +22,11 @@ class homepage extends StatelessWidget {
           ),
 
         body: Padding(
+
           padding: const EdgeInsets.all(20.0),
           child: Center(
               child: Container(
-                child: Text("My first page of app by $name and mood is $mood .",style: TextStyle(fontFamily: 'GlacialIndifference',fontWeight: FontWeight.bold,fontSize: 20),),
+                child: Text("My first page of app by $name and mood is $mood .",style: TextStyle(fontSize: 20),),
               )
           ),
         ),
