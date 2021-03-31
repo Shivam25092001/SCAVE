@@ -9,15 +9,41 @@ class AppDrawer extends StatelessWidget {
 
     return Drawer(
             child: Container(
-               // decoration: BoxDecoration(color: Color(0xffFFCC00)),
+              decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: <Color>[
+                      const Color(0xffFFCC00),
+                      const Color(0xffffffff)
+                    ],
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    tileMode: TileMode.clamp,
+
+                  )
+              ),
+
+              //decoration: BoxDecoration(color: Color(0xffFFCC00)),
                 child: ListView(
+
 
                   children: [
 
-                     DrawerHeader(
+                    DrawerHeader(
                         margin: EdgeInsets.zero,
                         padding: EdgeInsets.zero,
-                        decoration: BoxDecoration(color: Color(0xffFFCC00)),
+                        decoration: BoxDecoration(color: Color(0xffFFCC00),
+                            gradient: LinearGradient(
+                              colors: <Color>[
+                                const Color(0xffFFCC00),
+                                const Color(0xffffffff)
+                              ],
+                              begin: Alignment.topCenter,
+                              end: Alignment.bottomCenter,
+                              tileMode: TileMode.clamp,
+
+                            )
+                        ),
+
 
 
                         child: UserAccountsDrawerHeader(
@@ -27,37 +53,50 @@ class AppDrawer extends StatelessWidget {
                           decoration: BoxDecoration(color: Color(0xffFFCC00)),
                         ),
 
+                  ),
+                    Divider(height: 0.0,thickness: 8.5,indent: 0.0,color: Color(0xffFFCC00),endIndent: 0.0,),
 
-                  ),
-                      ListTile(
+                    ListTile(
                         leading: Icon(
-                          Icons.search,
+                          Icons.kitchen_sharp,
                           color: Colors.black,
                         ),
-                        title: Text('Scan'),
+                        title: Text('Items in Kitchen'),
                   ),
-                      ListTile(
-                        leading: Icon(
-                          Icons.view_list,
-                          color: Colors.black,
-                        ),
-                        title: Text('Last shopping list'),
-                  ),
-                      ListTile(
+
+                    ListTile(
+                      leading: Icon(
+                        Icons.qr_code,
+                        color: Colors.black,
+                      ),
+                      title: Text('Scan'),
+                    ),
+
+                    ListTile(
                         leading: Icon(
                           Icons.notifications_on,
                           color: Colors.black,
                         ),
                         title: Text('Upcoming notifications'),
                   ),
-                      ListTile(
+
+                    ListTile(
                         leading: Icon(
-                          Icons.person,
+                          Icons.auto_awesome,
                           color: Colors.black,
                         ),
                         title: Text('Donate'),
                   ),
-                      ListTile(
+
+                    ListTile(
+                       leading: Icon(
+                        Icons.store_mall_directory,
+                        color: Colors.black,
+                      ),
+                       title: Text('Our Partners'),
+                    ),
+
+                    ListTile(
                         leading: Icon(
                           Icons.mail,
                           color: Colors.black,
