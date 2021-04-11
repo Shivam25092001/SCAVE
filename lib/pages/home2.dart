@@ -24,16 +24,16 @@ class _HomePageState extends State<HomePage> {
           children: [
 
 
-            Padding(
+            /*Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Center(
                   child: Text("I am good here"),
-                )),
+                )),*/
 
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: GridView.count(
-                crossAxisCount: 2,
+                crossAxisCount: 1,
                 scrollDirection: Axis.vertical,
                 mainAxisSpacing: 10,
                 crossAxisSpacing: 10,
@@ -44,16 +44,16 @@ class _HomePageState extends State<HomePage> {
                     child: Container(
                       padding: EdgeInsets.symmetric(vertical: 16.0,horizontal: 0.0),
                       width: 181.0,
-                      height: 200.0,
+                      height: 50.0,
                       child: Text("Upcoming Notifications", textAlign: TextAlign.center,),
                       decoration: BoxDecoration(
                         color: const Color(0xffffcc00),
                         border: Border.all(width: 1.0, color: const Color(0xffcc00)),
-                        image: DecorationImage(
+                        /*image: DecorationImage(
                             image: AssetImage("Assets/images/Full_SCAVE.jpg"),
                             fit: BoxFit.contain,
                             alignment: Alignment.bottomCenter,
-                        )
+                        )*/
                       ),
                     ),
                   ),

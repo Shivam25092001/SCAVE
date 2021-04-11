@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_app/customWidgets/Drawer.dart';
@@ -28,23 +29,106 @@ class _homepageState extends State<homepage> {
                 fontFamily: 'GlacialIndifference',
                 fontWeight: FontWeight.bold)),
       ),
-      body: Stack(
+      body: GridView.count(
+          crossAxisCount: 2,
+          mainAxisSpacing: 0.0,
           children: [
-        Padding(
-            padding: const EdgeInsets.all(20.0),
-            child: Center(
-              child: Text("I am good here $mood is $name"),
-            )),
-            GridView.count(
-                crossAxisCount: 2,
-                mainAxisSpacing: 10,
-                crossAxisSpacing: 10,
-                primary: false,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      color: Color(0xffffcc00),
+                      borderRadius: BorderRadius.circular(10.0),
 
+                    ),
+                  child: Center(
+                    child: Text("Hello1"),
+                  ),
+                )
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      color: Color(0xffffcc00),
+                      borderRadius: BorderRadius.circular(10.0),
+                      boxShadow: [BoxShadow(
+                        color: Colors.black,
+                        blurRadius: 5.5,
+                      ),]
+                    ),
+                    child: Center(
+                      child: Text("Hello2"),
+                    ),
+                  )
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      color: Color(0xffffcc00),
+                      borderRadius: BorderRadius.circular(10.0),
 
-            )
-        ]
+                    ),
+                    child: Center(
+                      child: Text("Hello3"),
+                    ),
+                  )
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      color: Color(0xffffcc00),
+                      borderRadius: BorderRadius.circular(10.0),
+
+                    ),
+                    child: Center(
+                      child: Text("Hello3"),
+                    ),
+                  )
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      color: Color(0xffffcc00),
+                      borderRadius: BorderRadius.circular(10.0),
+
+                    ),
+                    child: Center(
+                      child: Text("Hello3"),
+                    ),
+                  )
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      color: Color(0xffffcc00),
+                      borderRadius: BorderRadius.circular(10.0),
+
+                    ),
+                    child: Center(
+                      child: Text("Hello3"),
+                    ),
+                  )
+              ),
+            ),
+          ],
       ),
+
     );
   }
 }
