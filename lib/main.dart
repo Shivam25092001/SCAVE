@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/Utils/Routes.dart';
 import 'package:flutter_app/pages/Intro_page.dart';
 import 'package:flutter_app/pages/home.dart';
-import 'package:flutter_app/pages/home2.dart';
+import 'package:flutter_app/pages/your_kitchen.dart';
 import 'package:flutter_app/pages/login_page.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'dart:async';
@@ -25,6 +25,7 @@ class FirstApp extends StatelessWidget {
         MyRoutes.introRoute: (context) => Intro(),
         MyRoutes.loginRoute: (context) => Login(),
         MyRoutes.homeRoute: (context) => homepage(),
+        MyRoutes.yourKitchenRoute: (context) => yourKitchen(),
       },
     );
   }

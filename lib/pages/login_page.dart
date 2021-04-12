@@ -104,7 +104,7 @@ class _LoginState extends State<Login> {
               },
 
                 child: AnimatedContainer(
-                  duration: Duration(seconds: 0),
+                  duration: Duration(seconds: 2),
                   child: pressButton? Icon(Icons.done,color: Colors.white) : Text("Login", style: TextStyle(fontFamily: 'GlacialIndifference',fontSize: 18),),
                   height: 45,
                   width: pressButton ? 45 : 90,
