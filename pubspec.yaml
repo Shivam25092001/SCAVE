@@ -55,7 +55,7 @@ flutter:
    - Assets/images/Scave.png
    - Assets/images/Full_SCAVE.jpg
    - Assets/images/ESA_root_pillars.jpg
-
+   - Assets/files/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

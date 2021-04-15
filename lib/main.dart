@@ -19,7 +19,7 @@ class FirstApp extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.system,
       theme: ThemeData(primarySwatch: Colors.amber),
-      initialRoute: MyRoutes.loginRoute,
+      initialRoute: MyRoutes.yourKitchenRoute,
 
       routes: {
         MyRoutes.introRoute: (context) => Intro(),
