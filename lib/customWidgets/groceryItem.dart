@@ -2,62 +2,55 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 
+
 class GroceryModel {
   static List<Items> itm;
 }
 
-class GroceryWidget extends StatelessWidget {
-
-  final Items item;
-
-  GroceryWidget({Key key, this.item}) : assert(item != null), super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Card(
-      child: ListTile(
-        leading: Text(item.filename),
-        title: Text(item.name),
-        subtitle: Text(item.type),
-
-      ),
-    );
-  }
-}
-
 
 class Items {
-  int id;
+  String id;
   String name;
   String DoM;
   String DoEx;
   String type;
   String description;
   String filename;
+  String brand;
+  double price;
+  String stock;
 
-  Items({this.description, this.DoEx, this.DoM, this.filename, this.id, this.name, this.type});
+  Items({this.description, this.DoEx, this.DoM, this.filename, this.id, this.name, this.type, this.brand, this.price, this.stock});
 
- factory Items.fromMap(Map<dynamic,dynamic> map){
+  // Mapping below =====================================================================================================================================================
+ factory Items.fromMap(Map<dynamic,dynamic> map) {
     return Items(
-      id : map["id"],
+      id : map["_id"],
       name: map["name"],
-      DoM: map["DoM"],
-      DoEx: map["DoEx"],
+      DoM: map["mfdDate"],
+      DoEx: map["expDate"],
       type: map["type"],
       description: map["description"],
-      filename: map["filename"],
+      filename: map["images"],
+      brand: map["brand"],
+      price: map["price"],
+      stock: map["stock"],
     );
   }
 
   toMap() => {
-    "id" : id,
+    "_id" : id,
     "name" : name,
-    "DoM" : DoM,
-    "DoEx" : DoEx,
+    "mfdDate" : DoM,
+    "expDate" : DoEx,
     "type" : type,
     "description" : description,
-    "filename" : filename,
+    "images" : filename,
+    "brand" : brand,
+    "price" : price,
+    "stock" : stock,
   };
+  // Mapping above =====================================================================================================================================================
 
 }
 

@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_app/customWidgets/Drawer.dart';
+import 'package:flutter_app/customWidgets/GroceryItemWidget.dart';
 import 'package:flutter_app/customWidgets/groceryItem.dart';
-import 'package:flutter_app/Utils/Routes.dart';
-import 'package:flutter/services.dart';
 import 'dart:convert';
-import 'package:flutter_app/customWidgets/groceryItem.dart';
+import 'package:http/http.dart';
 
 class yourKitchen extends StatefulWidget {
   @override
   _yourKitchenState createState() => _yourKitchenState();
 }
-
 
 class _yourKitchenState extends State<yourKitchen> {
   @override
@@ -22,14 +20,18 @@ class _yourKitchenState extends State<yourKitchen> {
     loadData();
   }
 
-  var q;
   void loadData() async{
-    var lJson = await rootBundle.loadString("Assets/files/items.json" );
+    var lJson = await rootBundle.loadString("Assets/files/items2.json" );
     var decodedData = jsonDecode(lJson);
+    //print(decodedData);
+    //print("hello");
     var itemData = decodedData["items"];
-    GroceryModel.itm = List.from(itemData).map<Items>((item) => Items.fromMap(item)).toList();
+    //print(itemData);
+    GroceryModel.itm = List.from(itemData).map<Items> ((item) => Items.fromMap(item)).toList();
+
     setState(() {});
   }
+
 
 
   @override
@@ -61,9 +63,9 @@ class _yourKitchenState extends State<yourKitchen> {
           ),
           child: ListView.builder(
               itemCount: GroceryModel.itm.length,
-              itemBuilder: (context, index) {
+              itemBuilder: (context, int) {
                 return GroceryWidget(
-                item: GroceryModel.itm[index],
+                item: GroceryModel.itm[int],
               );
               }
           ),
