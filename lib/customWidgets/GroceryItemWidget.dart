@@ -11,9 +11,9 @@ class GroceryWidget extends StatelessWidget {
         children: [
           Card(
             child: ListTile(
-              /*leading: Text(item.filename),
+              //leading: Text(item.filename),
               title: Text(item.name),
-              subtitle: Text(item.type),*/
+              subtitle: Text(item.type),
             ),
           ),
         ]

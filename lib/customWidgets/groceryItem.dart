@@ -16,39 +16,39 @@ class Items {
   String type;
   String description;
   String filename;
-  String brand;
-  double price;
-  String stock;
+  //String brand;
+  //double price;
+  //String stock;
 
-  Items({this.description, this.DoEx, this.DoM, this.filename, this.id, this.name, this.type, this.brand, this.price, this.stock});
+  Items({this.description, this.DoEx, this.DoM, this.filename, this.id, this.name, this.type});
 
   // Mapping below =====================================================================================================================================================
  factory Items.fromMap(Map<dynamic,dynamic> map) {
     return Items(
       id : map["_id"],
       name: map["name"],
-      DoM: map["mfdDate"],
-      DoEx: map["expDate"],
+      DoM: map["DoM"],
+      DoEx: map["DoEx"],
       type: map["type"],
       description: map["description"],
-      filename: map["images"],
-      brand: map["brand"],
-      price: map["price"],
-      stock: map["stock"],
+      filename: map["filename"],
+      //brand: map["brand"],
+      //price: map["price"],
+      //stock: map["stock"],
     );
   }
 
   toMap() => {
     "_id" : id,
     "name" : name,
-    "mfdDate" : DoM,
-    "expDate" : DoEx,
+    "DoM" : DoM,
+    "DoEx" : DoEx,
     "type" : type,
     "description" : description,
-    "images" : filename,
-    "brand" : brand,
-    "price" : price,
-    "stock" : stock,
+    "filename" : filename,
+    //"brand" : brand,
+    //"price" : price,
+    //"stock" : stock,
   };
   // Mapping above =====================================================================================================================================================
 

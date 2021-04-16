@@ -28,6 +28,7 @@ class _yourKitchenState extends State<yourKitchen> {
     var itemData = decodedData["items"];
     //print(itemData);
     GroceryModel.itm = List.from(itemData).map<Items> ((item) => Items.fromMap(item)).toList();
+    GroceryModel.itm.forEach((element) {print(element);});
 
     setState(() {});
   }
