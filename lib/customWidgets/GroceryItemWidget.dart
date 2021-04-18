@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'groceryItem.dart';
+import 'package:http/http.dart';
 
 class GroceryWidget extends StatelessWidget {
   final Items item;
@@ -11,9 +12,9 @@ class GroceryWidget extends StatelessWidget {
         children: [
           Card(
             child: ListTile(
-              //leading: Text(item.filename),
+              leading: Image.network(item.filename),
               title: Text(item.name),
-              subtitle: Text(item.type),
+              subtitle: Text(item.DoEx),
             ),
           ),
         ]

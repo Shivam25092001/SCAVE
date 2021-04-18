@@ -21,6 +21,7 @@ class _yourKitchenState extends State<yourKitchen> {
   }
 
   void loadData() async{
+    await Future.delayed(Duration(seconds: 3));
     var lJson = await rootBundle.loadString("Assets/files/items2.json" );
     var decodedData = jsonDecode(lJson);
     //print(decodedData);
@@ -28,8 +29,8 @@ class _yourKitchenState extends State<yourKitchen> {
     var itemData = decodedData["items"];
     //print(itemData);
     GroceryModel.itm = List.from(itemData).map<Items> ((item) => Items.fromMap(item)).toList();
-    GroceryModel.itm.forEach((element) {print(element);});
-
+    //GroceryModel.itm.forEach((element) {print(element);});
+    print("Hello!" + "${GroceryModel.itm.length}");
     setState(() {});
   }
 
@@ -62,12 +63,16 @@ class _yourKitchenState extends State<yourKitchen> {
                   ]
               )
           ),
-          child: ListView.builder(
+          child: ( GroceryModel.itm==null) ?
+              Center(
+                child: CircularProgressIndicator(),
+              )
+              :ListView.builder(
               itemCount: GroceryModel.itm.length,
               itemBuilder: (context, int) {
                 return GroceryWidget(
-                item: GroceryModel.itm[int],
-              );
+                  item: GroceryModel.itm[int],
+                );
               }
           ),
         ),
