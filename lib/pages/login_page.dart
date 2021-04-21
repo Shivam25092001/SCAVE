@@ -1,10 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/Utils/Routes.dart';
-import 'package:flutter_app/Utils/Routes.dart';
 
 String username = "";
-
 class Login extends StatefulWidget {
   @override
   _LoginState createState() => _LoginState();
@@ -12,9 +10,7 @@ class Login extends StatefulWidget {
 
 class _LoginState extends State<Login> {
 
-
   bool pressButton = false;
-
 
   @override//
   Widget build(BuildContext context) {
@@ -37,7 +33,6 @@ class _LoginState extends State<Login> {
                                           fontWeight: FontWeight.bold,
                                           fontFamily: 'GlacialIndifference'
                         ),
-
                 ),
               ),
             ),
@@ -45,7 +40,7 @@ class _LoginState extends State<Login> {
               height: 50,
             ),
 
-            Padding(
+              Padding(
                 padding: const EdgeInsets.symmetric(vertical: 0.0, horizontal: 16.0),
                 child: Column(
                   children: [
@@ -55,7 +50,7 @@ class _LoginState extends State<Login> {
                         labelText: "Username",
                       ),
                       onChanged: (str) {
-                        username=str;
+                        username = str;
                       },
                       validator: (String val) {
                         if(val.isEmpty){

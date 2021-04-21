@@ -11,7 +11,7 @@
       "size": "7 inches in diameter",
       "price": 42.95,
       "stock": "5",
-      "filename": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bettycrocker.com%2Frecipes%2Fchocolate-mousse-torte%2F66b1d719-9130-466c-80e3-a43ba54957b3&psig=AOvVaw3qsh0PaaJ8CLmDr7pPGS_s&ust=1618778919865000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiezMeThvACFQAAAAAdAAAAABAD",
+      "filename": "1",
       "suggestion": [
         "Serves 6 to 8",
         "Ships Nationwide in Refrigerated Packaging",
@@ -33,7 +33,7 @@
       "size": "7 inches in diameter",
       "price": 39.95,
       "stock": "2",
-      "filename": "/public/images/triple-chocolate-enrobed-brownie-cake.png",
+      "filename": "2",
       "suggestion": [
         "Serves 6 to 8",
         "Certified KOF-K Kosher"
@@ -54,7 +54,7 @@
       "size": "6.5 oz can",
       "price": 3.19,
       "stock": "7",
-      "filename": "/public/images/reddi-wip-dairy-whipped-topping-extra-creamy-aerosol-refrigerated-1.jpg",
+      "filename": "3",
 
       "suggestion": [
         " Shake it! Shake it! 4 times before use then remove cap.",
@@ -82,7 +82,7 @@
       "size": "7 inches in diameter",
       "price": 42.95,
       "stock": "4",
-      "filename": "/public/images/red-velvet-chocolate-cake.png",
+      "filename": "4",
       "suggestion": [
         "Serves 6 to 8",
         "Certified KOF-K Kosher",
@@ -104,7 +104,7 @@
       "size": "64 oz ctn",
       "price": 5.19,
       "stock": "21",
-      "filename": "/public/images/rice-dream-original-non-dairy-beverage-organic-1.jpg",
+      "filename": "5",
 
       "suggestion": [
         "Shake well.",
@@ -127,7 +127,7 @@
       "size": "12ct",
       "price": 20.99,
       "stock": "3",
-      "filename": "/public/images/members-mark-mini-plain-sliced-bagels.jpg",
+      "filename": "6",
       "suggestion": [
         "Authentic New York-style kettle boiled bagels",
         "Soft, chewy and delicious",
@@ -147,7 +147,7 @@
       "size": "5.3 oz cup",
       "price": 1.95,
       "stock": "15",
-      "filename": "/public/images/daiya-dairy-free-greek-yogurt-black-cherry-1.jpg",
+      "filename": "7",
 
       "suggestion": [
         "Keep refrigerated."
@@ -167,13 +167,13 @@
       "size": "36ct",
       "price": 28.99,
       "stock": "12",
-      "filename": "/public/images/daily-chef-mini-candy-cookies.jpg",
+      "filename": "8",
       "suggestion": [],
       "allegations": []
     },
     {
       "id": "74835a8d-b17b-4653-b1b1-fc58b4df19b9",
-      "name": "So Delicious Cultured Coconut Milk Yogurt Vanilla Dairy \u0026 Soy Free Organic",
+      "name": "So Delicious Cultured Coconut Milk Yogurt Vanilla Dairy",
       "description": "So Delicious® Dairy Free Coconut Milk Yogurt Alternative Vanilla. Made with organic coconut. Net Wt. 5.3 oz (150 g). Certified Vegan. Certified Gluten-Free®.",
       "type": "Dairy",
       "brand": "So Delicious",
@@ -182,7 +182,7 @@
       "size": "5.3 oz cup",
       "price": 2.09,
       "stock": "15",
-      "filename": "/public/images/so-delicious-cultured-coconut-milk-yogurt-vanilla-dairy-soy-free-organic-1.jpg",
+      "filename": "9",
       "suggestion": [
         "Keep refrigerated."
       ],
@@ -203,7 +203,7 @@
       "size": "32 pieces",
       "price": 39.95,
       "stock": "2",
-      "filename": "/public/images/gastons-bakery-small-puff-pastry-squares.jpg",
+      "filename": "10",
       "suggestion": [],
       "allegations": [
         "Not available to ship to Hawaii or Alaska.",
@@ -221,7 +221,7 @@
       "size": "Large",
       "price": 59.99,
       "stock": "6",
-      "filename": "/public/images/signature-bakery-assortment.jpg",
+      "filename": "11",
       "suggestion": [],
       "allegations": [
         "Unless otherwise noted, products contain milk, wheat, soy and egg, and were produced on equipment that processes peanuts, almonds, hazelnuts, pecans, walnuts.",
@@ -239,7 +239,7 @@
       "size": "Set of 15",
       "price": 34.95,
       "stock": "8",
-      "filename": "/public/images/gastons-bakery-croissants-1.jpg",
+      "filename": "12",
       "suggestion": [
         "15 ready-to-bake croissants"
       ],
@@ -256,7 +256,7 @@
       "size": "5.3 oz cup",
       "price": 1.92,
       "stock": "15",
-      "filename": "/public/images/so-delicious-cultured-coconut-milk-yogurt-vanilla-dairy-soy-free-organic-1.jpg",
+      "filename": "13",
       "suggestion": [
         "Keep refrigerated."
       ],
@@ -275,7 +275,7 @@
       "size": "5.6 oz box",
       "price": 1,
       "stock": "102",
-      "filename": "/public/images/celeste-pizza-for-one-vegetable-frozen-1.jpg",
+      "filename": "14",
       "suggestion": [
         "Do not put microwave disk in conventional oven.",
         "Place baking sheet on center oven rack; preheat oven to 400°F.",
@@ -294,7 +294,7 @@
       "size": "35.3 oz can",
       "price": 6.99,
       "stock": "12",
-      "filename": "/public/images/nestle-coffee-matepowder-coffee-creamer-original-1.jpg",
+      "filename": "15",
       "suggestion": [
         "Spoon Coffee-Mate into prepared coffee, tea, or cocoa.",
         "Stir and enjoy!"
@@ -314,7 +314,7 @@
       "size": "32 oz ctn",
       "price": 2.02,
       "stock": "1",
-      "filename": "/public/images/natures-promise-free-from-vanilla-almond-milk-refrigerated-1.jpg",
+      "filename": "16",
       "suggestion": [
         "Shake well + serve chilled.",
         "Refrigerate after opening and use within 7-10 days."
@@ -332,7 +332,7 @@
       "size": "4.4 oz box",
       "price": 2.39,
       "stock": "51",
-      "filename": "/public/images/weight-watchers-smart-ones-thin-crust-pizza-pepperoni-1.jpg",
+      "filename": "17",
       "suggestion": [
         "Keep frozen.",
         "Do not put microwave disk in conventional oven.",
@@ -352,7 +352,7 @@
       "size": "4 ct",
       "price": 7.49,
       "stock": "11",
-      "filename": "/public/images/kelloggs-special-k-flatbread-breakfast-sandwich-sausage-egg-and-cheese.jpg",
+      "filename": "18",
       "suggestion": [
         "Keep frozen."
       ],
@@ -373,7 +373,7 @@
       "size": "10 ct",
       "price": 3.32,
       "stock": "11",
-      "filename": "/public/images/kelloggs-eggo-chocolate-chip-waffles.jpg",
+      "filename": "19",
       "suggestion": [
         "Keep frozen."
       ],
@@ -386,7 +386,7 @@
     },
     {
       "id": "55a25e37-f9b1-4d63-b088-4c461f675009",
-      "name": "Deep Cocktail Samosa (Potato \u0026 Pea)",
+      "name": "Deep Cocktail Samosa (Potato Pea)",
       "description": "Crispy triangles filled with spicy potatoes and peas.",
       "type": "Frozen",
       "brand": "Deep",
@@ -395,7 +395,7 @@
       "size": "40 pcs",
       "price": 4.99,
       "stock": "6",
-      "filename": "/public/images/deep-cocktail-samosa-potato-pea.jpg",
+      "filename": "20",
       "suggestion": [
         "Keep frozen."
       ],

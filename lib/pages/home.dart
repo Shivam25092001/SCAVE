@@ -5,7 +5,6 @@ import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_app/Utils/Routes.dart';
 import 'package:flutter_app/customWidgets/Drawer.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 // ignore: camel_case_types
 class homepage extends StatefulWidget {
