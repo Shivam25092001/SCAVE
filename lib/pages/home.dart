@@ -53,7 +53,7 @@ class _homepageState extends State<homepage> {
                   children: [
                     GestureDetector(
                       onTap: (){
-                        Navigator.pushNamed(context, MyRoutes.yourKitchenRoute);
+                        Navigator.pushNamed(context, MyRoutes.notifyDataRoute);
                       },
                       child: Padding(
                         padding: const EdgeInsets.only(right:0.0, left: 8.0,top:25.0,bottom: 0.0),

@@ -20,7 +20,7 @@ class _yourKitchenState extends State<yourKitchen> {
   }
 
   void loadData() async{
-    await Future.delayed(Duration(seconds: 3));
+    await Future.delayed(Duration(seconds: 2));
     var lJson = await rootBundle.loadString("Assets/files/items2.json" );
     var decodedData = jsonDecode(lJson);
     //print(decodedData);
@@ -29,7 +29,7 @@ class _yourKitchenState extends State<yourKitchen> {
     //print(itemData);
     GroceryModel.itm = List.from(itemData).map<Items> ((item) => Items.fromMap(item)).toList();
     //GroceryModel.itm.forEach((element) {print(element);});
-    print("Hello!" + "${GroceryModel.itm.length}");
+    //print("Hello!" + "${GroceryModel.itm.length}");
     setState(() {});
   }
 

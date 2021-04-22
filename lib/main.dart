@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/Utils/Routes.dart';
+import 'package:flutter_app/pages/Home2.dart';
 import 'package:flutter_app/pages/Intro_page.dart';
 import 'package:flutter_app/pages/home.dart';
+import 'package:flutter_app/pages/upcoming_notify.dart';
 import 'package:flutter_app/pages/your_kitchen.dart';
 import 'package:flutter_app/pages/login_page.dart';
 import 'dart:async';
@@ -18,13 +20,15 @@ class FirstApp extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.system,
       theme: ThemeData(primarySwatch: Colors.amber),
-      initialRoute: MyRoutes.loginRoute,
+      initialRoute: MyRoutes.home2Route,
 
       routes: {
         MyRoutes.introRoute: (context) => Intro(),
         MyRoutes.loginRoute: (context) => Login(),
         MyRoutes.homeRoute: (context) => homepage(),
         MyRoutes.yourKitchenRoute: (context) => yourKitchen(),
+        MyRoutes.notifyDataRoute: (context) => notifyData(),
+        MyRoutes.home2Route: (context) => homed(),
       },
     );
   }

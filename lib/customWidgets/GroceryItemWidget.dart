@@ -14,7 +14,7 @@ class GroceryWidget extends StatelessWidget {
               leading: Image.asset("Assets/itemImages/${item.filename}.jpg", fit: BoxFit.fill,),
               //leading: Image.asset("Assets/itemImages/6.jpg", fit: BoxFit.fill,),
               title: Text(item.name),
-              subtitle: Text(item.DoEx),
+              subtitle: Text(item.type),
             ),
           ),
         ]

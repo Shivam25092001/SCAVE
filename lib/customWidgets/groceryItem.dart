@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 
 class GroceryModel {
   static List<Items> itm;
+  static List<Items> sortedItm;
 }
 
 
