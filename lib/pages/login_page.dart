@@ -92,7 +92,7 @@ class _LoginState extends State<Login> {
 
                 onTap: () async{
                   await Future.delayed( Duration(seconds: 2) );
-                  Navigator.pushNamed(context, MyRoutes.homeRoute);
+                  Navigator.pushNamed(context, MyRoutes.home2Route);
                   setState(() {
                   pressButton = true;
                 });

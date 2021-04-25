@@ -20,7 +20,7 @@ class FirstApp extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.system,
       theme: ThemeData(primarySwatch: Colors.amber),
-      initialRoute: MyRoutes.home2Route,
+      initialRoute: MyRoutes.loginRoute,
 
       routes: {
         MyRoutes.introRoute: (context) => Intro(),
