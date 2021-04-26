@@ -13,7 +13,7 @@ class AppDrawer extends StatelessWidget {
               decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: <Color>[
-                      const Color(0xaaFFCC00),
+                      const Color(0x70FFCC00),
                       const Color(0x00ffffcc00)
                     ],
                     begin: Alignment.topCenter,

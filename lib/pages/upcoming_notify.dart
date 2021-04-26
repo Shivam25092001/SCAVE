@@ -38,7 +38,7 @@ class _notifyDataState extends State<notifyData> {
       return datea.compareTo(dateb);
     });
     setState(() {});
-    GroceryModel.sortedItm.forEach((element) {print(element.DoEx);});
+    //GroceryModel.sortedItm.forEach((element) {print(element.DoEx);});
     //print(itemData);
     //print(initData + "Hello3");
   }
@@ -56,7 +56,7 @@ class _notifyDataState extends State<notifyData> {
           ),
           centerTitle: true,
           elevation: 60,
-          backgroundColor: const Color(0xffFFCC00),
+          backgroundColor: Colors.purple,
           shadowColor: Colors.black,
           title: Text('Upcoming Notifications',
               style: TextStyle(
@@ -66,7 +66,7 @@ class _notifyDataState extends State<notifyData> {
         ),
         body: Container(
             decoration: BoxDecoration(
-              color: Color(0xFFFFFCE36E),
+              color: Colors.white,
             ),
           child: ListView.builder(
               itemCount: GroceryModel.sortedItm.length,

@@ -19,9 +19,9 @@ class Items {
   String filename;
   //String brand;
   //double price;
-  //String stock;
+  String stock;
 
-  Items({this.description, this.DoEx, this.DoM, this.filename, this.id, this.name, this.type});
+  Items({this.description, this.DoEx, this.DoM, this.filename, this.id, this.name, this.type, this.stock});
 
   // Mapping below =====================================================================================================================================================
  factory Items.fromMap(Map<dynamic,dynamic> map) {
@@ -35,7 +35,7 @@ class Items {
       filename: map["filename"],
       //brand: map["brand"],
       //price: map["price"],
-      //stock: map["stock"],
+      stock: map["stock"],
     );
   }
 
@@ -49,7 +49,7 @@ class Items {
     "filename" : filename,
     //"brand" : brand,
     //"price" : price,
-    //"stock" : stock,
+    "stock" : stock,
   };
   // Mapping above =====================================================================================================================================================
 

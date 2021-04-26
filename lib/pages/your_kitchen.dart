@@ -28,6 +28,11 @@ class _yourKitchenState extends State<yourKitchen> {
     var itemData = decodedData["items"];
     //print(itemData);
     GroceryModel.itm = List.from(itemData).map<Items> ((item) => Items.fromMap(item)).toList();
+    GroceryModel.itm.sort((Items a, Items b) {
+      var datea = (a.type);
+      var dateb = (b.type);
+      return datea.compareTo(dateb);
+    });
     //GroceryModel.itm.forEach((element) {print(element);});
     //print("Hello!" + "${GroceryModel.itm.length}");
     setState(() {});
@@ -43,7 +48,7 @@ class _yourKitchenState extends State<yourKitchen> {
           appBar: AppBar(
             centerTitle: true,
             elevation: 10,
-            backgroundColor: const Color(0xffFFCC00),
+            backgroundColor: Colors.green,
             shadowColor: Colors.black,
             title: Text('Your Kitchen',
                 style: TextStyle(
@@ -51,17 +56,6 @@ class _yourKitchenState extends State<yourKitchen> {
                     fontWeight: FontWeight.bold)),
           ),
         body: Container(
-          decoration: BoxDecoration(
-              gradient: LinearGradient(
-                  begin: Alignment.topCenter,
-                  end : Alignment.bottomCenter,
-                  colors: [
-                    //Color(0x9affcc00),
-                    Colors.black,
-                    Colors.black54
-                  ]
-              )
-          ),
           child: ( GroceryModel.itm==null) ?
               Center(
                 child: CircularProgressIndicator(),
