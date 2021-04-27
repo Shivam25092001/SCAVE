@@ -12,8 +12,6 @@ class notifyData extends StatefulWidget {
   _notifyDataState createState() => _notifyDataState();
 }
 
-
-
 class _notifyDataState extends State<notifyData> {
 
   @override

@@ -29,7 +29,7 @@ class GroceryWidget extends StatelessWidget {
                     SizedBox(height: 10,width: 20,),
                     Container(child: Text("Category: ${item.type}", style: TextStyle(fontSize: 15.0),),width: 200,),
                     SizedBox(height: 10,width: 20,),
-                    Container(child: Text("Category: ${item.stock}", style: TextStyle(fontSize: 15.0),),width: 200,),
+                    Container(child: Text("Stock: ${item.stock}", style: TextStyle(fontSize: 15.0),),width: 200,),
                   ],
                 ),
               ),

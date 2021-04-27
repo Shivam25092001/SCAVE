@@ -114,8 +114,8 @@ class _homedState extends State<homed> {
                       borderRadius: BorderRadius.circular(20.0),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.black,
-                          offset: Offset(5,1),
+                          color: Colors.grey,
+                          offset: Offset(5,3),
                           blurRadius: 5.0
                         )
                       ]
@@ -156,8 +156,8 @@ class _homedState extends State<homed> {
                       //backgroundBlendMode: BlendMode.hardLight,
                         boxShadow: [
                           BoxShadow(
-                              color: Colors.black,
-                              offset: Offset(5,1),
+                              color: Colors.grey,
+                              offset: Offset(5,3),
                               blurRadius: 5.0
                           )
                         ]
@@ -198,8 +198,8 @@ class _homedState extends State<homed> {
                       //backgroundBlendMode: BlendMode.hardLight,
                         boxShadow: [
                           BoxShadow(
-                              color: Colors.black,
-                              offset: Offset(5,1),
+                              color: Colors.grey,
+                              offset: Offset(5,3),
                               blurRadius: 5.0
                           )
                         ]
@@ -221,7 +221,7 @@ class _homedState extends State<homed> {
                       ],
                     ),
                   ),
-                  onTap: (){ Navigator.pushNamed(context, MyRoutes.notifyDataRoute); },
+                  //onTap: (){ Navigator.pushNamed(context, MyRoutes.notifyDataRoute); },
                 ),
                 SizedBox(width: 50,height: 20,),
 
@@ -240,8 +240,8 @@ class _homedState extends State<homed> {
                       //backgroundBlendMode: BlendMode.hardLight,
                         boxShadow: [
                           BoxShadow(
-                              color: Colors.black,
-                              offset: Offset(5,1),
+                              color: Colors.grey,
+                              offset: Offset(5,3),
                               blurRadius: 5.0
                           )
                         ]
@@ -263,7 +263,7 @@ class _homedState extends State<homed> {
                       ],
                     ),
                   ),
-                  onTap: (){ Navigator.pushNamed(context, MyRoutes.notifyDataRoute); },
+                  //onTap: (){ Navigator.pushNamed(context, MyRoutes.notifyDataRoute); },
                 ),
                 SizedBox(width: 50,height: 20,),
 

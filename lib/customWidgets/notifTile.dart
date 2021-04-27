@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'groceryItem.dart';
-import 'package:intl/intl.dart';
 
 class NotifyTileWidget extends StatelessWidget {
   final Items item;
@@ -9,6 +8,7 @@ class NotifyTileWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return Container(
       height: 90,
       margin: EdgeInsets.all(10.0),
@@ -29,7 +29,7 @@ class NotifyTileWidget extends StatelessWidget {
                     SizedBox(height: 10,width: 20,),
                     Container(child: Text("${item.name}", style: TextStyle(fontSize: 15.0,fontWeight: FontWeight.w900),), width: 200,),
                     SizedBox(height: 10,width: 20,),
-                    Container(child: Text("Exprires on:  ${item.DoEx}", style: TextStyle(fontSize: 15.0),),width: 200,),
+                    Container(child: Text("Exprires on:  ${item.DoEx}", style: TextStyle(fontSize: 15.0,color: Colors.red),),width: 200,),
                   ],
                 ),
               ),

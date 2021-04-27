@@ -94,7 +94,7 @@
       "DoM": "02/17/2020",
       "size": "64 oz ctn",
       "price": 5.19,
-      "stock": "21",
+      "stock": "1",
       "filename": "5",
 
       "suggestion": [
@@ -202,14 +202,14 @@
     },
     {
       "id": "f82c6b8a-2c6a-45e2-887f-ad5f34631439",
-      "name": "Lemon Pickle",
+      "name": "AMUL butter",
       "description": "A companion to your every meal",
       "type": "Condiments",
-      "brand": "Mother's Recipe",
-      "DoEx": "03/14/2017",
-      "DoM": "03/14/2018",
+      "brand": "AMUL",
+      "DoEx": "05/12/2018",
+      "DoM": "04/26/2018",
       "size": "5.6 oz box",
-      "price": 100.00,
+      "price": 50.00,
       "stock": "102",
       "filename": "11",
       "suggestion": [
@@ -362,71 +362,14 @@
       "DoM": "05/15/2017",
       "size": "5.3 oz cup",
       "price": 1.92,
-      "stock": "19",
-      "filename": "13",
+      "stock": "5",
+      "filename": "19",
       "suggestion": [
         "Keep refrigerated."
       ],
       "allegations": [
         "Contains coconut."
       ]
-    },
-    {
-      "id": "f82c6b8a-2c6a-45e2-887f-ad5f34631439",
-      "name": "Lemon Pickle",
-      "description": "A companion to your every meal",
-      "type": "Condiments",
-      "brand": "Mother's",
-      "DoEx": "03/14/2017",
-      "DoM": "03/14/2018",
-      "size": "5.6 oz box",
-      "price": 100.00,
-      "stock": "102",
-      "filename": "14",
-      "suggestion": [
-        "Do not put microwave disk in conventional oven.",
-        "Place baking sheet on center oven rack; preheat oven to 400°F.",
-        "Remove frozen pizza from carton; unwrap."
-      ],
-      "allegations": []
-    },
-    {
-      "id": "7b862543-876f-4bac-b56a-630f6e239079",
-      "name": "Nestle Coffee-mate Powder Coffee Creamer Original",
-      "description": "Nestle® Coffee-Mate® The Original Coffee Creamer. Easy-grip handle. This product is non-dairy, lactose-free, cholesterol-free and gluten-free. Please recycle. Gluten free. Lactose free. Per 1 tsp: 10 calories. 0.5g sat fat, 3% DV. 0mg sodium, 0% DV. 0g sugars.",
-      "type": "Dairy",
-      "brand": "Nestle",
-      "DoEx": "03/14/2017",
-      "DoM": "9/14/2017",
-      "size": "35.3 oz can",
-      "price": 6.99,
-      "stock": "12",
-      "filename": "20",
-      "suggestion": [
-        "Spoon Coffee-Mate into prepared coffee, tea, or cocoa.",
-        "Stir and enjoy!"
-      ],
-      "allegations": [
-        "Contains: a milk derivative."
-      ]
-    },
-    {
-      "id": "b971e50a-8a61-4c0c-b5ab-94289dabcf92",
-      "name": " Mayonese",
-      "description": "Short self life product",
-      "type": "Dairy",
-      "brand": "Amul",
-      "DoEx": "05/14/2017",
-      "DoM": "05/16/2018",
-      "size": "32 oz ctn",
-      "price": 60.00,
-      "stock": "10",
-      "filename": "21",
-      "suggestion": [
-        "Shake well + serve chilled.",
-        "Refrigerate after opening and use within 7-10 days."
-      ],
-      "allegations": []
     },
     {
       "id": "4a8913f9-29a1-40e0-81bc-c37b564e0b5d",
@@ -438,8 +381,8 @@
       "DoM": "01/14/2018",
       "size": "4.4 oz box",
       "price": 2.39,
-      "stock": "51",
-      "filename": "22",
+      "stock": "5",
+      "filename": "20",
       "suggestion": [
         "Keep frozen.",
         "Do not put microwave disk in conventional oven.",
@@ -458,8 +401,8 @@
       "DoM": "04/10/2018",
       "size": "4 ct",
       "price": 7.49,
-      "stock": "11",
-      "filename": "23",
+      "stock": "1",
+      "filename": "21",
       "suggestion": [
         "Keep frozen."
       ],
@@ -479,8 +422,8 @@
       "DoM": "08/14/2017",
       "size": "10 ct",
       "price": 3.32,
-      "stock": "11",
-      "filename": "24",
+      "stock": "2",
+      "filename": "22",
       "suggestion": [
         "Keep frozen."
       ],
@@ -502,7 +445,7 @@
       "size": "40 pcs",
       "price": 4.99,
       "stock": "6",
-      "filename": "25",
+      "filename": "23",
       "suggestion": [
         "Keep frozen."
       ],
@@ -522,8 +465,8 @@
       "DoM": "08/03/2021",
       "size": "40 pcs",
       "price": 200,
-      "stock": "6",
-      "filename": "26",
+      "stock": "1",
+      "filename": "24",
       "suggestion": [
         "Keep frozen."
       ],
